@@ -1,0 +1,23 @@
+{
+  "name": "socketsub",
+  "version": "0.0.1",
+  "homepage": "https://github.com/elbii/socketsub",
+  "authors": [
+    "Jamil Bou Kheir <jamil@elbii.com>"
+  ],
+  "description": "Example Websocket notifications from Postgres' PubSub",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
