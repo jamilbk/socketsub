@@ -4,6 +4,9 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var WebSocketServer = require('ws').Server
+  , wss = new WebSocketServer({port: 8080});
+ 
 
 var routes = require('./routes/index');
 var users = require('./routes/users');

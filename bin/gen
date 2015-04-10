@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+
+/* generates a message into a postgres channel */
