@@ -2,3 +2,21 @@ extends layout
 
 block content
   h1= title
+
+  table.table
+    thead
+      tr
+        th channel name
+        th latest message
+    tbody
+      tr#news
+        td news
+        td.data
+      tr#btc-price
+        td btc price
+        td.data
+      tr#bugs
+        td bugs
+        td.data
+
+
