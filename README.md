@@ -3,7 +3,7 @@ Example Websocket notifications from Postgres' LISTEN / NOTIFY
 
 
 SocketSub is a Proof-of-Concept implementation for tying a backend notification
-channel (in this, Postgresql's LISTEN / NOTIFY) to a WebSocket server to
+channel (in this case, Postgresql's LISTEN / NOTIFY) to a WebSocket server to
 provide updates to a client's browser.
 
 ## Requirements
@@ -19,5 +19,4 @@ provide updates to a client's browser.
 ## Running
 1. ```bin/www```
 2. Navigate to http://localhost:3000 in any modern browser
-3. Issue a NOTIFY command to Postgres, like so:
-```bin/gen CHANNELNAME MESSAGE```
+3. Issue a NOTIFY command to Postgres, like so: ```bin/gen CHANNELNAME MESSAGE```
