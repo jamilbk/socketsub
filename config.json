@@ -1,0 +1,13 @@
+{
+  "db": {
+    "user": "socketsub",
+    "host": "localhost",
+    "password": null,
+    "database": "socketsub"
+  },
+  "channels": [
+    "bugs",
+    "news",
+    "btcprice"
+  ]
+}

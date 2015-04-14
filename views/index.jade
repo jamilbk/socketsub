@@ -3,20 +3,21 @@ extends layout
 block content
   h1= title
 
-  table.table
-    thead
-      tr
-        th channel name
-        th latest message
-    tbody
-      tr#news
-        td news
-        td.data
-      tr#btcprice
-        td btc price
-        td.data
-      tr#bugs
-        td bugs
-        td.data
+  if channels && channels.length > 0
 
+    h3 Displaying #{channels.length} channels
+
+    table.table
+      thead
+        tr
+          th channel name
+          th latest message
+      tbody
+        each channel in channels
+          tr(id=channel)
+            td=channel
+            td.data
+
+  else
+    h3 No channels found. Try adding some in config.json.
 
