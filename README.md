@@ -19,3 +19,5 @@ provide updates to a client's browser.
 ## Running
 1. ```bin/www```
 2. Navigate to http://localhost:3000 in any modern browser
+3. Issue a NOTIFY command to Postgres, like so:
+```bin/gen CHANNELNAME MESSAGE```
